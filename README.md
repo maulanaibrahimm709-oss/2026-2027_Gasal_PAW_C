@@ -1,6 +1,6 @@
 
 
-# 💻 Praktikum Pengembangan Aplikasi Web
+# 💻 Praktikum Pengembangan Aplikasi Web C
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-aktif-brightgreen?style=for-the-badge">

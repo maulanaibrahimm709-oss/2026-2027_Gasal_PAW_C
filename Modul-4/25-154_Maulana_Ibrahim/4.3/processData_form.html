@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
 </head>
-<body>
-<h1>Register</h1>
 
-<form action="processData.php" method="POST">
-    <fieldset>
-        <legend>Person Details</legend>
-        <table>
-            <tr>
-                <td><label for="surname">Surname</label></td>
-                <td><input type="text" name="surname" id="surname"></td>
-            </tr>
-            <tr>
-                <td><label for="email">Email address</label></td>
-                <td><input type="text" name="email" id="email"></td>
-            </tr>
-            <tr>
-                <td><label for="password">Password</label></td>
-                <td><input type="password" name="password" id="password"></td>
-            </tr>
-            <tr>
-                <td><label for="address">Street Address</label></td>
-                <td><textarea name="address" id="address" rows="2" cols="20"></textarea></td>
-            </tr>
-            <tr>
-                <td><label for="state">State</label></td>
-                <td>
-                    <select name="state" id="state">
+<body>
+    <h1>Register</h1>
+
+    <form action="processData_self.php" method="POST">
+        <fieldset>
+            <legend>Person Details</legend>
+            <table>
+                <tr>
+                    <td><label for="surname">Surname</label></td>
+                    <td><input type="text" name="surname" id="surname"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email address</label></td>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Street Address</label></td>
+                    <td><textarea name="address" id="address" rows="2" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td>
+                        <select name="state" id="state">
                         <option value="Queensland">Queensland</option>
                         <option value="New South Wales">New South Wales</option>
                         <option value="Victoria">Victoria</option>
                         <option value="Tasmania">Tasmania</option>
                         <option value="Western Australia">Western Australia</option>
                     </select>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="hidden" name="country" value="Australia"></td>
-            </tr>
-            <tr>
-                <td>Gender</td>
-                <td>
-                    <input type="radio" name="gender" value="Male" id="male">
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" value="Female" id="female">
-                    <label for="female">Female</label>
-                </td>
-            </tr>
-            <tr>
-                <td>Vegetarian?</td>
-                <td>
-                    <input type="checkbox" name="vegetarian" value="Yes" id="vegetarian">
-                    <label for="vegetarian">Yes</label>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit" value="Submit"> <input type="reset" value="Reset"></td>
-            </tr>
-        </table>
-    </fieldset>
-</form>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="hidden" name="country" value="Australia"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="Female" id="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vegetarian?</td>
+                    <td>
+                        <input type="checkbox" name="vegetarian" value="Yes" id="vegetarian">
+                        <label for="vegetarian">Yes</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit"> <input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
 </body>
+
 </html>
